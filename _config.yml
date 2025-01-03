@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://www.ncpedia.org
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /sites/default/files/blackhistory/
+baseurl: /sites/default/files/blackhistory
 # location of code, the full url to your github repository
 source-code: https://github.com/SLNC-DIMP/blackhistory
 
@@ -18,7 +18,7 @@ source-code: https://github.com/SLNC-DIMP/blackhistory
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Digital Collection
+title: Black History Month Digital Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: From NCpedia and NC Digital Collections #Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations

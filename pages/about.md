@@ -8,11 +8,11 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="/objects/027_1963freedomforall.jpg" heading=false text=false padding="5em" %} 
 
-{% include feature/nav-menu.html sections="About ____ Collection;Learn More;The North Carolina Digital Collections" %}
+{% include feature/nav-menu.html sections="About the Black History Collection;Learn More;The North Carolina Digital Collections" %}
 
-## About the __________ Collection
+## About the Black History Collection
 
 This collection features items from the State Library of North Carolina's [Digital Collections](https://digital.ncdcr.gov/) and online resources [NCpedia](https://ncpedia.org/) and [ANCHOR](https://ncpedia.org/anchor/anchor) that ..... These items discuss .... 
 
