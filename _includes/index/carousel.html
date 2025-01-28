@@ -19,7 +19,7 @@
 {%- endcomment -%}
 
 {%- assign carousel-max = include.max | default: 9 -%}
-{%- assign btn-color = include.btn-color | default: "primary" -%}
+{%- assign btn-color = include.btn-color | default: "dark" -%}
 {%- assign btn-text = include.btn-text | default: "View Item" -%}
 {% if site.data.theme.carousel-child-objects == true %}
 {%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: "item","item.image_small != nil or item.image_thumb != nil"-%}
@@ -38,7 +38,7 @@
     <div class="card-body">
         {% if include.title %}<h2 class="card-title h5">{{ include.title }}</h2>{% endif %}
         
-        <div id="imageCarousel" class="carousel slide bg-dark rounded mb-3" data-bs-ride="carousel">
+        <div id="imageCarousel" class="carousel slide bg-primary rounded mb-3" data-bs-ride="carousel">
             <div id="carouselIndicators" class="carousel-indicators">
                 
             </div>
