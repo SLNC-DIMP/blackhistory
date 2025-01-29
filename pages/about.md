@@ -23,7 +23,7 @@ Black History Month is celebrated each year to honor and recognize the rich hist
 
 {% include feature/card.html text="Freedom Park in Raleigh, NC honors the African American experience and struggle for freedom." objectid="blackhistory060" width="25" centered=true %}
 
-Woodson advocated that the celebratory week should be a showcase of the work students and historians were doing throughout the year indicating that research on Black life and history shouldn't be constrained to a short one-week time frame.  The week long celebration was extended to the full month of February. Gerald Ford was the first president to recognize the month in 1976 and every president since has designated February as Black History Msonth.
+Woodson advocated that the celebratory week should be a showcase of the work students and historians were doing throughout the year indicating that research on Black life and history shouldn't be constrained to a short one-week time frame.  The week long celebration was extended to the full month of February. Gerald Ford was the first president to recognize the month in 1976 and every president since has designated February as Black History Month.
 
 ---------------------------------------------------------------------------------------
 ## The North Carolina Digital Collections
