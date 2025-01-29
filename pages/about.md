@@ -14,9 +14,9 @@ credits: true
 
 ## About the Black History Collection
 
-This collection features items from the State Library of North Carolina's [Digital Collections](https://digital.ncdcr.gov/) and online resources [NCpedia](https://ncpedia.org/) and [ANCHOR](https://ncpedia.org/anchor/anchor) focusing on the history and culture of African Americans in North Carolina. Included in these items are articles about civil rights issues, photographs, and biographies. 
+This collection features items from the State Library of North Carolina's [Digital Collections](https://digital.ncdcr.gov/) and online resources [NCpedia](https://ncpedia.org/) and [ANCHOR](https://ncpedia.org/anchor/anchor) focusing on the history and culture of African Americans in North Carolina. Included in these items are articles about civil rights issues, photographs, and biographies.
 
-[//]: # include feature/image.html header="Juneteenth 2024 Event Calendar" objectid="juneteenth002" caption=false width="25" link="https://aahc.nc.gov/2024-juneteenth-event-calendar"
+{% include feature/image.html header="Black History 2025 Community Calendar" objectid="blackhistory106" caption=false width="25" link="https://aahc.nc.gov/programs/black-history-month/black-history-month-community-calendar"%}
 ## Learn More
 
 Second paragraph 
