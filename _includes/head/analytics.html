@@ -3,3 +3,15 @@
     To avoid collecting stats from your development server, this code will be added to the head of every page ONLY during production build! 
 {% endcomment %}
 <!-- Analytics --> 
+{% if site.google-analytics-id %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9NP4MTQG5N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9NP4MTQG5N', {
+    'anonymize_ip': true
+  });
+</script>
+{%- endif -%}
