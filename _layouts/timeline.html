@@ -21,6 +21,7 @@ custom-foot: js/timeline-js.html
 {%- if t == 0 -%}{{ i }}{% unless forloop.last %};{% endunless %}{% endif %}{% endfor %}{%- endcapture -%}
 {%- assign navYears = navYears | split: ";" -%}
 {%- endif -%}
+{%- assign roundYears = "166;173;176;179;181;182;183;185;186;187;188;189;190;191;192;193;194;195;196;197;198;199;200;201;202" | split: ";"  -%}
 {%- if navYears -%}
 <div class="dropdown float-end" id="year-nav">
     <button class="btn btn-primary dropdown-toggle" type="button" id="yearButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,15 +36,15 @@ custom-foot: js/timeline-js.html
 
 {{ content }}
 
-<h3><a href="#y{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> to <a href="#y{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
+<h3><a href="#y1660">1660</a> to <a href="#y2020">2020</a></h3>
 
 <table id="timeline" class="table table-striped">
     <tbody>
-        {% for year in uniqueYears %}
-        <tr id="y{{ year }}">
-            <th>
-                <h3>{{ year }}</h3>
-            </th>
+        {% for year in roundYears %}
+        <tr id="y{{ year | append: "0"}}"></tr>
+        <th>
+            <h3>{{ year | append: "0"}}</h3>
+        </th>
             <td>
                 <div class="row">
                     {%- assign inYear = items | where_exp: 'item', 'item[field] contains year' -%}
