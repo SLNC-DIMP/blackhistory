@@ -33,5 +33,12 @@
     border-bottom-color: #512848;
     border-left-color: #512848;
 }
- 
+
+.btn-light,.btn-light:hover {
+    background-image: linear-gradient(white,#fff 6%,#f0f0f0);
+    -webkit-filter: none;
+    filter: none;
+    border: 1px solid #dedede;
+    color: #000;
+}
 
