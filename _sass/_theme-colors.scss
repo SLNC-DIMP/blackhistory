@@ -19,7 +19,7 @@ $theme-colors: () !default;
 
 $white:    #fff !default;
 $black:    #000 !default;
-$primary:       #0250C5 !default;
+$primary:       #0250c5 !default;
 
 $min-contrast-ratio:   4.5 !default;
 $color-contrast-dark:      $black !default;
@@ -35,8 +35,8 @@ $btn-focus-width:             .25rem !default;
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
-$btn-hover-bg-shade-amount:       55% !default;
-$btn-hover-bg-tint-amount:        55% !default;
+$btn-hover-bg-shade-amount:       15% !default;
+$btn-hover-bg-tint-amount:        15% !default;
 $btn-hover-border-shade-amount:   20% !default;
 $btn-hover-border-tint-amount:    10% !default;
 $btn-active-bg-shade-amount:      20% !default;

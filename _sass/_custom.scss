@@ -2,3 +2,36 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+.form-select {
+    color: #512848;
+    border-color: #512848;
+}
+
+.form-select option {
+    color: #565656;
+}
+
+.form-control {
+    border-color: #512848;
+}
+
+.form-control::placeholder {
+    color: #565656;
+}
+
+#site-search::placeholder{
+    color:#565656;
+    font-weight:500;
+}
+
+#filterTextBox::placeholder {
+    color:#565656;
+
+}
+.btn-secondary {
+    border-top-color: #512848;
+    border-bottom-color: #512848;
+    border-left-color: #512848;
+}
+ 
+
