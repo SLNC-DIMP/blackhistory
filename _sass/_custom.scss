@@ -8,26 +8,29 @@
 }
 
 .form-select option {
-    color: #565656;
+    color: #595959;
+}
+.form-control::placeholder {
+    color: black;
+    opacity:.5;
+}
+
+#site-search::placeholder{
+    color:black;
+    font-size:18px;
+    opacity:.75;
+}
+
+#filterTextBox::placeholder {
+    color:#545454;
+
 }
 
 .form-control {
     border-color: #512848;
 }
 
-.form-control::placeholder {
-    color: #565656;
-}
 
-#site-search::placeholder{
-    color:#565656;
-    font-weight:500;
-}
-
-#filterTextBox::placeholder {
-    color:#565656;
-
-}
 .btn-secondary {
     border-top-color: #512848;
     border-bottom-color: #512848;
