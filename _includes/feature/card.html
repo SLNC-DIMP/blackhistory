@@ -19,6 +19,7 @@
 {%- if include.objectid contains '/' -%}
 {%- capture src -%}{{ include.objectid | relative_url }}{% endcapture %}
 {%- capture alt -%}{{ include.alt | default: include.title }}{% endcapture %}
+{%- capture link -%}{{ include.link | default: src }}{%- endcapture -%}
 {%- elsif include.objectid -%}
 {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
 {%- capture src -%}{{ item.image_small | default: item.object_location | relative_url }}{% endcapture %}
@@ -26,12 +27,13 @@
 {%- endif -%}
 <div class="narrow-content">
     <div class="card mb-3{% if include.float %} feature-float-{{ include.float }}{% endif %}{% if include.width %} feature-w-{{ include.width }}{% endif %}{% if include.centered %} mx-auto{% endif %}">
-        {% if src %}<img class="card-img-top" src="{{ src }}" alt="{{ alt | escape }}">{%- endif -%}
-        {% if include.header %}<{{ include.heading_level | default: 'h2' | strip }} class="card-header">{{ include.header }}</{{ include.heading_level | default: 'h2' | strip }}>{%- endif -%}
+        {% if include.header %}<{{ include.heading_level | default: 'h4' | strip }} class="card-header">{{ include.header }}</{{ include.heading_level | default: 'h4' | strip }}>{%- endif -%}
         {% if include.link %}<a href="{{ link | default: src }}">{%endif%}
+        {% if src %}<img class="card-img-top" src="{{ src }}" alt="{{ alt | escape }}">{%- endif -%}
         <div class="card-body">
             {% if include.title %}<{{ include.heading_level | default: 'h2' | strip }} class="card-title">{{ include.title }}</{{ include.heading_level | default: 'h2' | strip }}>{%- endif -%}
             <div class="card-text">{{ include.text | markdownify }}</div>
         </div>
+        {% if include.link %}</a>{%endif%}
     </div>
 </div>
