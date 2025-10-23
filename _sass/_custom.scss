@@ -30,7 +30,6 @@
     border-color: #512848;
 }
 
-
 .btn-secondary {
     border-top-color: #512848;
     border-bottom-color: #512848;
@@ -45,10 +44,12 @@
     color: #000;
 }
 
-.btn-primary {
-        background-color: #67aea6;
-}
-
 a:hover {
     color: #522848;
 }
+
+$theme-colors: (
+  "primary": #67aea6,
+  "secondary": #bcfcf3,
+  "dark": #522848
+);

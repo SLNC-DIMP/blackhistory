@@ -23,14 +23,15 @@ body {
     @if $base-font-size != "" { font-size: $base-font-size; }
     @if $text-color != "" { color: $text-color; }
 }
+
 a {
-    /* remove link underline */ 
-    text-decoration: underline;
+    /* remove link underline */
+    text-decoration: none;
     @if $link-color != "" { 
         color: $link-color; 
         &:hover {
-            text-decoration: none;
-            /*@if $text-color != "" { color: $text-color; }*/
+            text-decoration: underline;
+            /*@if $text-color != "" { color: $text-color; } */
         }
     }
 }
@@ -90,6 +91,7 @@ a {
 
 /* scroll to top */
 #scroll-to-top {
+    color: #67aea6;
     display: none; 
     position: fixed; 
     bottom: 20px; 
