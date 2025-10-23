@@ -12,7 +12,7 @@
 }
 .form-control::placeholder {
     color: black;
-    opacity:.5;
+    opacity:.75;
 }
 
 #site-search::placeholder{
@@ -30,7 +30,7 @@
     border-color: #512848;
 }
 
-.btn-secondary {
+.btn-lghtmain {
     border-top-color: #512848;
     border-bottom-color: #512848;
     border-left-color: #512848;
@@ -46,6 +46,11 @@
 
 a:hover {
     color: #522848;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #522848;
 }
 
 $theme-colors: (
