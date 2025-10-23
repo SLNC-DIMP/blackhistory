@@ -52,3 +52,20 @@ a:hover {
     color: #fff;
     background-color: #44223C;
 }
+
+.page-item .page-link {
+    color: #498881;
+}
+
+.page-item .page-link:hover{
+    color: black;
+    background-color: #88BFB8;
+    border-color: #498881;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: black;
+    background-color: #67aea6;
+    border-color: #498881;
+}

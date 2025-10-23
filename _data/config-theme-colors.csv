@@ -1,12 +1,12 @@
 color_class,color
-primary, 
-secondary,
+primary, #67aea6
+secondary, #bcfcf3
 success,
 info,
 warning,
 danger,
 light,
-dark, 
+dark, #44223C
 main, #67aea6
 lghtmain, #bcfcf3
 data, #44223C
