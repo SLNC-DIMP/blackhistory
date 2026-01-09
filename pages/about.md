@@ -18,12 +18,12 @@ padding: 10em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About the Black History Collection
+## About This Collection
 
 This collection features items from the State Library of North Carolina's [Digital Collections](https://digital.ncdcr.gov/) and online resources [NCpedia](https://ncpedia.org/) and [ANCHOR](https://ncpedia.org/anchor/anchor) focusing on the history and culture of African Americans in North Carolina. Included in these items are articles about civil rights issues, photographs, and biographies.
 
 {% include feature/card.html objectid="/objects/106_bhmevents.jpg" text="Click to see the Calendar" centered="true" caption=false width="50" link="https://aahc.nc.gov/programs/black-history-month/black-history-month-community-calendar" %}
-## Learn More
+## About Black History
 
 Black History Month is celebrated each year to honor and recognize the rich history and accomplishments of African Americans in our nation. In the early 1900s historian Carter G. Woodson completed research on the history of African Americans in the United States.  He created a Black History exhibit in Chicago as part of celebration of the 50th anniversary of emancipation and later founded a journal in which he published his articles on Black life and history. In 1926, Woodson announced a Black History week in February. Through this celebration he was hoping to expand research on the life and history of African Americans further than the most well-known figures like Frederick Douglass.   
 
