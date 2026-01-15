@@ -1,13 +1,15 @@
 color_class,color
-primary, #67aea6
-secondary, #bcfcf3
+primary, #BB1D25
+secondary, #FFBA27
 success,
-info,
+info, #2d762f
 warning,
 danger,
 light,
-dark, #44223C
-main, #67aea6
-lghtmain, #bcfcf3
-data, #44223C
+dark, #4B2E11
+main, #BB1D25
+lghtmain, #FFBA27
+data, #4B2E11
+other, #2d762f
+databtn, #C69D6C
 

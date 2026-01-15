@@ -50,7 +50,7 @@ a:hover {
 
 .dropdown-item:focus, .dropdown-item:hover {
     color: #fff;
-    background-color: #44223C;
+    background-color: #BB1D25;
 }
 
 .page-item .page-link {
@@ -58,16 +58,16 @@ a:hover {
 }
 
 .page-item .page-link:hover{
-    color: black;
-    background-color: #88BFB8;
-    border-color: #325854;
+    color: white;
+    background-color: #BB1D25;
+    border-color: #2d762f;
 }
 
 .page-item.active .page-link {
     z-index: 3;
     color: black;
-    background-color: #67aea6;
-    border-color: #498881;
+    background-color: #FFBA27;
+    border-color: #2d762f;
 }
 #footer-logo{
     text-decoration: none;
