@@ -101,9 +101,8 @@ filename,object_location,image_small,image_thumb
 102_baker.png,/objects/102_baker.png,/objects/small/102_baker_sm.jpg,/objects/thumbs/102_baker_th.jpg
 103_keys.jpg,/objects/103_keys.jpg,/objects/small/103_keys_sm.jpg,/objects/thumbs/103_keys_th.jpg
 104_jacobs.jpg,/objects/104_jacobs.jpg,/objects/small/104_jacobs_sm.jpg,/objects/thumbs/104_jacobs_th.jpg
-105_bhmwebsite.png,/objects/105_bhmwebsite.png,/objects/small/105_bhmwebsite_sm.jpg,/objects/thumbs/105_bhmwebsite_th.jpg
 106_bhmevents.jpg,/objects/106_bhmevents.jpg,/objects/small/106_bhmevents_sm.jpg,/objects/thumbs/106_bhmevents_th.jpg
-107_bhmtoolkit.png,/objects/107_bhmtoolkit.png,/objects/small/107_bhmtoolkit_sm.jpg,/objects/thumbs/107_bhmtoolkit_th.jpg
+107_bhmtoolkit.jpg,/objects/107_bhmtoolkit.jpg,/objects/small/107_bhmtoolkit_sm.jpg,/objects/thumbs/107_bhmtoolkit_th.jpg
 108_greenbook.jpg,/objects/108_greenbook.jpg,/objects/small/108_greenbook_sm.jpg,/objects/thumbs/108_greenbook_th.jpg
 109_greenbook.jpg,/objects/109_greenbook.jpg,/objects/small/109_greenbook_sm.jpg,/objects/thumbs/109_greenbook_th.jpg
 110_jones.jpg,/objects/110_jones.jpg,/objects/small/110_jones_sm.jpg,/objects/thumbs/110_jones_th.jpg
