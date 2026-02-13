@@ -125,5 +125,6 @@ icons:
   icon-panorama: book
   icon-compound-object: collection 
   icon-multiple: postcard
+  info-html: filetype-html
   icon-default: file-earmark # fall back icon
   icon-back-to-top: arrow-up-square
