@@ -20,7 +20,7 @@ padding: 10em
 
 ## About This Collection
 
-This collection features items from the State Library of North Carolina's [Digital Collections](https://digital.ncdcr.gov/) and online resources [NCpedia](https://ncpedia.org/) and [ANCHOR](https://ncpedia.org/anchor/anchor) focusing on the history and culture of African Americans in North Carolina. Included in these items are articles about civil rights issues, photographs, and biographies.
+This collection features items from the Library of North Carolina's [Digital Collections](https://digital.ncdcr.gov/) and online resources [NCpedia](https://ncpedia.org/) and [ANCHOR](https://ncpedia.org/anchor/anchor) focusing on the history and culture of African Americans in North Carolina. Included in these items are articles about civil rights issues, photographs, and biographies.
 
 {% include feature/card.html objectid="/objects/106_bhmevents.jpg" text="View the Calendar" centered="true" caption=false width="50" link="https://aahc.nc.gov/programs/black-history-month/black-history-month-community-calendar" %}
 ## About Black History
